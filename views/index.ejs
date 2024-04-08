@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+       form{
+        border: 2px solid black;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+        position: absolute;
+        left: 450px;
+        padding-top: 40px;
+        background-color: gray;
+      }
+
+       .one {
+        font-size: 23px;
+        font-weight: 500;
+        text-align: left;
+        font-family: sans-serif;
+        position: absolute;
+        left: 10px;
+       }
+
+       .two {
+        position: absolute;
+        right: 50px;
+        border: 0px;
+        border: 2px solid black;
+        width: 190px;
+        height: 22px;
+        font-size: 20px;
+        font-family: sans-serif;
+       }
+
+       .b {
+        position: absolute;
+        border: 0px;
+        border: 2px solid black;
+        top: 200px;
+        left: 130px;
+        padding: 10px;
+        font-size: 23px;
+        font-weight: 600;
+       }
+
+       .a {
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: gray;
+        position: absolute;
+        top: 350px;
+        left: 600px;
+       }
+
+    </style>
+  </head>
+  <body>
+   
+
+    <a href="/login" class="a">login</a>
+
+    <form action="/add" method="post">
+      <span class="one">name:</span><input type="text" name="name" class="two"><br><br>
+      <span class="one">email:</span><input type="text" name="email" class="two"><br><br>
+      <span class="one">password:</span><input type="text" name="password" class="two"><br><br>
+      <br><br><button class="b">submit</button>
+    </form>
+
+
+  </body>
+</html>
